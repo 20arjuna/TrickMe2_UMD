@@ -31,9 +31,9 @@ def get_input():
     file1.write(question)
     file1.close()
 
-    post_output()
+    hello = post_output()
 
-    return "hello"
+    return hello
 
 @app.route('/suggestions', methods=['GET'])
 def post_output():
