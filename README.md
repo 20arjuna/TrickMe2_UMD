@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# maskifai-server
+This repository contains the code for the TrickMe2 Interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Motivation
+Current QA models perform poorly on questions centered around underrepresented entities. This is in part due to biases in data that is being used to train these models. This includes underrepresentation of minorities and women, as well as a lack of focus on individuals from nonwestern countries. As QA models continue to perform at higher and higher levels, it is important that the data being used to train these models accurately portrays the diverse world we live in.
 
-## Available Scripts
+# What we built
+* Note: Project is still under development
+<br>
+<br>
+To rectify this, we propose an adversarial question writing interface with a human-in-the-loop with a specific emphasis on generating questions that either contain or are about underrepresented groups. The end result of this project will be an inclusive dataset that can be used to train existing QA models.
 
-In the project directory, you can run:
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Using Maskifai
+- Clone this repo using: ```git clone github.com/20arjuna/TrickMe2_UMD```
+- Launch frontend using: ```yarn start```
+- Navigate into backend directory using: ```cd backend```
+- Launch virtual environment using ```. venv/bin/activate```
+- Install dependencies using: ```pip install -r requirements.txt```
+- Launch backend using: ```yarn start-backend```
